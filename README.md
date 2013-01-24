@@ -1,4 +1,3 @@
-
 Installation
 ============
 
@@ -12,3 +11,5 @@ Support
 =======
 Please note that we do not provide any support on this extension. 
 
+
+If you think this extension is cool, it would be nice if you can add a back link to [customweb.com](http://www.customweb.com).
