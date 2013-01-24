@@ -1,0 +1,63 @@
+<h1>{$MAIN_HEADING}</h1>
+{$FORM_HEAD}
+
+{$MESSAGE}
+    
+<table class="formNewTicket">
+	<tr>
+    	<th>{$TEXT_FRISTNAME}:</th>
+        <td>{$FRISTNAME_FIELD}</td>
+    </tr>
+	<tr>
+    	<th>{$TEXT_LASTNAME}:</th>
+        <td>{$LASTNAME_FIELD}</td>
+    </tr>
+	<tr>
+    	<th>{$TEXT_EMAIL}:</th>
+        <td>{$EMAIL_FIELD}</td>
+    </tr>
+	<tr>
+    	<th>{$TEXT_DEPARTMENT}:</th>
+        <td>{$DEPARTMENT_DROPDOWN}</td>
+    </tr>
+    {if $PRIORITY_DROPDOWN != ''}
+        <tr>
+            <th>{$TEXT_PRIORITY}:</th>
+            <td>{$PRIORITY_DROPDOWN}</td>
+        </tr>
+    {/if}
+    {if $ORDERS_DROPDOWN != ''}
+        <tr>
+            <th>{$TEXT_ORDER}:</th>
+            <td colspan="2">{$ORDERS_DROPDOWN}</td>
+        </tr>
+    {/if}
+    {if $PRODUCT_FIELD != ''}
+        <tr>
+            <th>{$TEXT_PRODUCT}:</th>
+            <td>{$PRODUCT_FIELD}</td>
+            <td  style="text-align:left;">{$PRODUCT_DELETE_BUTTON}{$PRODUCT_SEARCH_BUTTON}</td>
+        </tr>
+    {/if}
+    <tr>
+    	<th>{$TEXT_COMMENT}:</th>
+    </tr>
+    <tr>
+        <td colspan="3">{$COMMENT_FIELD}</td>
+    </tr>
+    {if $CAPTCHA != ''}
+    <tr>
+    	<th>&nbsp;</th>
+    </tr>
+    <tr>
+        <th>{$TEXT_CAPTCHA}:</th>
+        <td>{$CAPTCHA}</td>
+    </tr>
+    <tr>
+        <th>{$TEXT_CAPTCHA}:</th>
+        <td>{$CAPTCHA_INPUT}</td>
+    </tr>
+    {/if}
+</table>
+{$SEND_BUTTON}
+{$FORM_FOOTER}

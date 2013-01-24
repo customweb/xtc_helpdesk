@@ -1,0 +1,52 @@
+<h1>{$TICKET_TITLE}</h1>
+{$MESSAGE}
+<table width="100%" class="formNewTicket">
+    <tr>
+        <th width="40%">{$TEXT_TICKET_ID}:</th>
+        <td>{$TICKET_ID}</td>
+    </tr>
+	{if $TICKET_PRIORITY != ''}
+        <tr>
+            <th>{$TEXT_TICKET_PRIORITY}:</th>
+            <td>{$TICKET_PRIORITY}</td>
+        </tr>
+    {/if}
+	{if $TICKET_STATUS != ''}
+        <tr>
+            <th>{$TEXT_TICKET_STATUS}:</th>
+            <td>{$TICKET_STATUS}</td>
+        </tr>
+    {/if}
+	{if $TICKET_DEPARTMENT != ''}
+        <tr>
+            <th>{$TEXT_TICKET_DEPARTMENT}:</th>
+            <td>{$TICKET_DEPARTMENT}</td>
+        </tr>
+    {/if}
+	{if $LINK_ORDER != ''}
+        <tr>
+            <th>{$TEXT_LINK_ORDER}:</th>
+            <td>{$LINK_ORDER}</td>
+        </tr>
+    {/if}
+</table>
+
+{foreach from=$HISTORY item=history}
+    {if $history.add_by == 'customer'}
+        <div class="ticket_history float_left">
+    {else}
+        <div class="ticket_history float_right">
+    {/if}
+    <div class="title">{$history.title}</div>
+	<div class="comment">{$history.comment}</div>
+	<div class="date">{$history.date}</div>
+</div>
+{/foreach}
+
+{$FORM_HEAD}
+<div class="ticket_history float_left">
+	<div class="title"><strong>{$TEXT_COMMENT_TITLE}</strong></div>
+    <div class="comment">{$COMMENT_FIELD}</div>
+    <div class="date">{$SEND_BUTTON}</div>
+</div>
+{$FORM_FOOTER}

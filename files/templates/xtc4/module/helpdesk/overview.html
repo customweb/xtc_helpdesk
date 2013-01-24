@@ -1,0 +1,23 @@
+<h1>{$OVERVIEW_TITLE}</h1>
+{if count($TICKETS) > 0}
+<table class="listing" cellpadding="0" cellspacing="0">
+	<tr>
+    	<th>{$HEADING_TICKET_NO}</th>
+    	<th>{$HEADING_TICKET_DATE}</th>
+    	<th>{$HEADING_TICKET_STATUS}</th>
+    	<th>{$HEADING_TICKET_VIEW}</th>
+    </tr>
+    {foreach from=$TICKETS item=ticket}
+        <tr class="{cycle values="listingRow1,listingRow2"}">
+            <td>{$ticket.ticket_id}</td>
+            <td>{$ticket.last_modified}</td>
+            <td>{$ticket.status_name}</td>
+            <td>{$ticket.link}</td>
+        </tr>
+    {/foreach}
+</table>
+{else}
+	<p>{$OVERVIEW_NO_TICKETS}</p>
+{/if}
+
+{$LINK_NEW_TICKET}

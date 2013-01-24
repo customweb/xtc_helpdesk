@@ -1,0 +1,170 @@
+.mainframe
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	padding: 20px;
+}
+.listing a:link, .listing a:visited
+{
+	text-decoration:none;
+	border:none;
+}
+.listing
+{
+	width: 100%;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#666666;
+	border-style:solid;
+	border-width:1px;
+	border-color:#999999;
+	border-collapse:collapse;
+}
+.listing th
+{
+	font-weight:bold;
+	text-align:left;
+	padding: 8px;
+	background-color:#FFFFFF;
+}
+.listing td
+{
+	text-align:left;
+	height: 20px;
+	padding: 8px;
+}
+
+.ticket_history 
+{
+	width: 75%;
+	margin: 10px 5px 10px 5px;
+	padding: 5px;
+}
+
+.ticket_history .title
+{
+	padding: 5px 5px 5px 10px;
+}
+
+.ticket_history .comment
+{
+	padding: 10px;
+	background-color:#FFFFFF;
+	margin: 8px;
+	text-align:justify;
+}
+
+.ticket_history .date
+{
+	text-align:right;
+	padding: 5px 10px 5px 10px;
+}
+
+
+.float_left
+{
+	float:left;
+	background-color:#DCD9FD;
+}
+
+.float_right
+{
+	float:right;
+	background-color:#F5F5F5;
+}
+.internal
+{
+	background-color:#C2FCCF;
+}
+
+.comment_field
+{
+	background-color:#DCD9FD;
+	padding: 10px;
+}
+.list
+{
+	 font-size: 12px;
+}
+.list th
+{
+	 text-align:left;
+}
+
+.Tab
+{
+	
+}
+
+.Tab div
+{
+}
+
+.Tab ul li
+{
+	display:inline;
+	list-style:none;
+	margin: 0px;
+	padding: 0px;
+	
+}
+
+.Tab ul li a:link, .Tab ul li a:visited
+{
+	border-style:solid;
+	border-width: 1px;
+	border-color:#999999;	
+	padding: 4px 10px 4px 10px;
+	margin: 0px 0px 0px 15px;
+	background-color:#F3F3F3;
+	text-decoration:none;
+	border-top-width:3px;
+}
+
+/**
+ * For IE:   :link and :visited are needed!!!
+ */
+.Tab ul li a:hover, .Tab ul li a:focus, .Tab ul li a.Active:link,  .Tab ul li a.Active:visited
+{
+	border-bottom-color:#FFFFFF;
+	background-color:#FFFFFF;
+	
+}
+
+
+.Tab ul
+{
+	margin: 4px 0px 4px 0px;
+	padding: 0px;
+}
+.Tab .Content
+{
+	border-style:solid;
+	border-width: 1px;
+	border-color:#999999;
+	padding: 10px;
+	margin: 0px 5px 10px 5px;
+	background-color:#FFFFFF;
+	display:none;
+}
+
+.Tab div.Active
+{
+	display:block;
+}
+
+.Tab .Content label
+{
+	font-weight:bold;
+}
+.Tab .Content th
+{
+	width:50%;
+	font-size:12px;
+	text-align:left;
+}
+.Tab .Content td
+{
+}
+
+

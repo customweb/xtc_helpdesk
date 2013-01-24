@@ -1,0 +1,5 @@
+A new ticket was added:
+------------------------------------
+
+Ticket No: {$ticket_no}
+

@@ -1,0 +1,6 @@
+Your ticket was added:
+---------------------------------------------
+
+Your ticket nubmer is: {$ticket_no}
+
+We will try to answer as soon as possible.

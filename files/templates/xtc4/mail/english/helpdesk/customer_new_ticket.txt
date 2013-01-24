@@ -1,0 +1,9 @@
+Ihr Ticket wurde erfolgreich erfasst!
+---------------------------------------------
+
+Ihre Ticket Nr lautet: {$ticket_no}
+
+Wir werden Ihre Anfrage so schnell als m&ouml;glich bearbeitet.
+
+
+

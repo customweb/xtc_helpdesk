@@ -1,0 +1,55 @@
+.ticket_history 
+{
+	width: 75%;
+	margin: 10px 5px 10px 5px;
+	padding: 5px;
+}
+
+.ticket_history .title
+{
+	padding: 5px 5px 5px 10px;
+}
+
+.ticket_history .comment
+{
+	padding: 10px;
+	background-color:#FFFFFF;
+	margin: 8px;
+	text-align:justify;
+}
+
+.ticket_history .date
+{
+	text-align:right;
+	padding: 5px 10px 5px 10px;
+}
+
+
+.float_left
+{
+	float:left;
+	background-color:#F5F5F5;
+}
+
+.float_right
+{
+	float:right;
+	background-color:#DCD9FD;
+}
+
+.comment_field
+{
+	background-color:#DCD9FD;
+	padding: 10px;
+}
+
+.message
+{
+	border-color:#FF3300;
+	border-width: 4px;
+	border-bottom-style:solid;
+	border-top-style:solid;
+	
+	background-color:#FDE0DF;
+	padding: 20px 5px 20px 5px;
+}

@@ -1,0 +1,5 @@
+Eine Antwort wurde hinzugef&uuml;gt:
+------------------------------------
+
+Ticket Nr: {$ticket_no}
+

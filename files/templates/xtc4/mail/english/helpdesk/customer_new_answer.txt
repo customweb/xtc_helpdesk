@@ -1,0 +1,8 @@
+Sie haben eine Antwort erhalten:
+--------------------------------
+
+Folgen Sie dem folgenden Link:
+{$ticket_link}
+
+
+

@@ -1,0 +1,4 @@
+A new ticket answer was added:
+---------------------------------------------
+
+Ticket No: {$ticket_no}

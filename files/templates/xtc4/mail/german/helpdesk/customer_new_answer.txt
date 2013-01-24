@@ -1,0 +1,5 @@
+Your have a new answer to your ticket:
+--------------------------------
+
+Pleas follow the link: 
+{$ticket_link}
